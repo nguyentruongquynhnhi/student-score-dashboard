@@ -1,0 +1,6 @@
+services:
+  - type: web 
+    name:student-score-dashboard
+    runtime: python
+    buildCommand: pip install-rrequirements.txt
+    startCommand: uvicornmain:app--host0.0.0.0--port$PORT

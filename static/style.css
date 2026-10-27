@@ -1,0 +1,15 @@
+body{margin:0;font-family:Arial,sans-serif; background:#f3f6fb;}
+.container{ max-width:1180px;margin:auto;padding: 24px; }
+.filter,.card,.kpisarticle{background:white;border-radius:12px;
+  padding:16px;box-shadow: 02px10px#00000012; }
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);
+  gap:16px;margin:16px0;}
+.kpisb,.kpisspan{display:block;}
+.kpisb{font-size:1.7rem;color:#1d4ed8;}
+.grid{display:grid;grid-template-columns:1fr1fr;gap:16px; }
+.cardimg{width:100%;}
+table{width:100%;border-collapse: collapse;}
+th,td{ padding:10px;border-bottom:1pxsolid#ddd;text-align:left;}
+.table-wrap{margin-top: 16px;overflow-x:auto;}
+@media(max-width:800px){.kpis,.grid{grid-template-columns:1fr;} }
+
